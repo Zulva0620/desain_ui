@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
           Container(
             height: 60,
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Color.fromARGB(255, 33, 219, 243),
               border: Border(
                 bottom: BorderSide(
                   width: 1,
@@ -101,7 +101,7 @@ class HomePage extends StatelessWidget {
                   margin: EdgeInsets.only(left: 16, right: 16),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
-                    color: Colors.blue
+                    color: Color.fromARGB(255, 33, 219, 243),
                   )
                 )
               )
